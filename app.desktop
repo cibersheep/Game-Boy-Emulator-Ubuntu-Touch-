@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Game Boy Emulator
+Name[ca]=Emulador de Game boy
+Name[es]=Emulador de Game boy
+Comment=Game boy emulator writen in javascript
+Exec=webapp-container --app-id="gbemu4.cibersheep" $@ www/index.html
+Terminal=false
+Type=Application
+Categories=Utility;TextTools
+X-Ubuntu-Touch=true
+Icon=./www/images/icon.png
+X-Ubuntu-Splash-Color=#AEA79F

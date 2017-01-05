@@ -1,0 +1,14 @@
+{
+    "description":  "Game boy emulator writen in javascript.",
+    "framework":    "ubuntu-sdk-15.04.5",
+    "hooks": {
+        "gbemu4": {
+            "apparmor": "app.json",
+            "desktop":  "app.desktop"
+        }
+    },
+    "maintainer":   "Joan CiberSheep <cibersheep@gmail.com>",
+    "name":         "gbemu4.cibersheep",
+    "title":        "Game boy emulator",
+    "version":      "0.16"
+}
